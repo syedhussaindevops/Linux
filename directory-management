@@ -1,1 +1,17 @@
+# Directory Management in Linux
 
+## Common Commands
+
+pwd             # Show current directory
+ls              # List files/folders
+cd /home        # Change directory
+cd ..           # Move one level back
+cd ~            # Go to home directory
+
+mkdir project   # Create directory
+mkdir -p a/b/c  # Create nested directories
+
+rmdir test      # Remove empty directory
+rm -r olddir    # Remove directory with files
+
+tree            # Show directory structure
