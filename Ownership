@@ -1,0 +1,12 @@
+# Ownership in Linux
+
+This folder contains Linux ownership commands used in administration and DevOps environments.
+
+## Common Commands
+
+ls -l                         # View owner and group
+chown user file.txt          # Change owner
+chown user:group file.txt    # Change owner and group
+chown -R user:group folder/  # Change ownership recursively
+
+chgrp group file.txt         # Change group ownership
