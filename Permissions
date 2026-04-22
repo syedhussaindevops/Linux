@@ -1,0 +1,16 @@
+# File Permissions in Linux
+
+This folder contains Linux file and directory permission commands used in administration and DevOps tasks.
+
+## Common Commands
+
+ls -l                    # View permissions
+chmod 755 file.sh        # Change permission
+chmod +x script.sh       # Make file executable
+chmod -w file.txt        # Remove write permission
+
+chown user file.txt      # Change file owner
+chown user:group file.txt # Change owner and group
+
+umask                    # Show default permissions
+umask 022                # Set default permissions
